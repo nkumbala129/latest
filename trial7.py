@@ -30,7 +30,7 @@ SEMANTIC_MODEL_OPTIONS = {
 st.set_page_config(
     page_title="welcome to Cortex AI Assistant",
     layout="centered",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="auto"
 )
 
 # Initialize session state
