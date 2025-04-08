@@ -1,0 +1,15 @@
+﻿# Core dependencies for the Streamlit app
+streamlit==1.36.0
+
+# Snowflake connectivity
+snowflake-connector-python==3.10.0
+snowflake-snowpark-python==1.17.0
+
+# HTTP requests
+requests==2.32.3
+
+# Data handling
+pandas==2.2.2
+
+# Optional: Ensure compatibility with Python 3.11 (your environment)
+pyarrow==16.1.0  # Required by snowflake-connector-python and pandas for data handling
