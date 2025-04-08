@@ -29,8 +29,8 @@ SEMANTIC_MODEL_OPTIONS = {
 # Streamlit Page Config
 st.set_page_config(
     page_title="welcome to Cortex AI Assistant",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="centered",
+    initial_sidebar_state="collapsed"
 )
 
 # Initialize session state
